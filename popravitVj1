@@ -1,0 +1,20 @@
+
+sve ovake metode u posebno event manager/ game manager neki
+
+
+
+using interfaces
+
+interfaces.throwable
+
+
+interfaces.cs
+
+interfaces{
+throwable
+healable
+damageable
+}
+
+
+
