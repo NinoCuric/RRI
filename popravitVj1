@@ -1,19 +1,24 @@
-
-sve ovake metode u posebno event manager/ game manager neki
-
+podijeliti u razlicite fileove
+liste umjesto nizovi u implementaciji za field,party
+sve vanjske metode i interfacei u posebno event manager/ game manager ili svoje posebno klasu
+otvorit najobicniji console app u visual studiu vidit za primjer
+metode ispisa inventorija da postoji npr unutar inventory klase
+unutar konstruktora staviti default value health=0
 
 
 using interfaces
 
-interfaces.throwable
+interfaces.Ithrowable
+interfaces.Ihealable
 
 
+drugi file:
 interfaces.cs
 
 interfaces{
-throwable
-healable
-damageable
+Ithrowable
+Ihealable
+Idamageable
 }
 
 
