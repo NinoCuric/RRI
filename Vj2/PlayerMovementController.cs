@@ -22,7 +22,7 @@ public class PlayerMovementController : MonoBehaviour
     [Space]
     [SerializeField] private float Speed = 1.5f;
     [SerializeField] private float Jumpforce = 5f;
-    [SerializeField] private float Sensitivity = 3;
+    [SerializeField] private float Sensitivity = 3f;
     [SerializeField] private float Gravity = -9.81f;
     [SerializeField] private float SprintTime = 5f;
 
