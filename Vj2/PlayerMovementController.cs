@@ -41,10 +41,7 @@ public class PlayerMovementController : MonoBehaviour
         {
             SprintStop(); 
         }
-
-
         UseStamina();
-
         MovePlayer();
         MovePlayerCamera();
     }
