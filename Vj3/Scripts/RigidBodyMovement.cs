@@ -50,7 +50,7 @@ public class RigidBodyMovement : MonoBehaviour
     private void MovePlayerCamera()
     {
         xRot -= PlayerMouseInput.y * Sensitivty;
-
+        xRot = Mathf.Clamp(xRot, -60f, 60f);
         transform.Rotate(0f, PlayerMouseInput.x * Sensitivty, 0f);
         PlayerCamera.transform.localRotation = Quaternion.Euler(xRot, 0f, 0f);
     }
